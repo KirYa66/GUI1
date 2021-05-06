@@ -20,9 +20,9 @@ public class MyDrawPanel2 extends JPanel {
 
 
 
-        GradientPaint gradient = new GradientPaint(170, 170, startColor, 250, 250, endColor);
+        GradientPaint gradient = new GradientPaint(70, 70, startColor, 150, 150, endColor);
         g2D2.setPaint(gradient);
-        g2D2.fillOval(170, 170, 100, 100);
+        g2D2.fillOval(70, 70, 100, 100);
 
 
     }
