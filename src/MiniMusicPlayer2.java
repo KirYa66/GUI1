@@ -2,6 +2,13 @@ import javax.sound.midi.*;
 
 public class MiniMusicPlayer2 implements ControllerEventListener {
     public static void main(String[] args) {
+        MiniMusicPlayer2 mini = new MiniMusicPlayer2();
+        mini.go();
+
+
+    }
+
+    private void go() {
         try {
             Sequencer sequencer = MidiSystem.getSequencer();
             sequencer.open();
@@ -41,6 +48,6 @@ public class MiniMusicPlayer2 implements ControllerEventListener {
 
     @Override
     public void controlChange(ShortMessage event) {
-        System.out.println(:"ля");
+        System.out.println("ля");
     }
 }
