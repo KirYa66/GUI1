@@ -16,14 +16,8 @@ public class MyDrawPanel2 extends JPanel {
         blue = (int) (Math.random()*255);
         Color endColor = new Color(red,green,blue);
 
-
-
-
-
-        GradientPaint gradient = new GradientPaint(70, 70, startColor, 150, 150, endColor);
+        GradientPaint gradient = new GradientPaint(70, 70, startColor, 270, 270, endColor);
         g2D2.setPaint(gradient);
-        g2D2.fillOval(70, 70, 100, 100);
-
-
+        g2D2.fillOval(70, 70, 200, 200);
     }
 }
