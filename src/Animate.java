@@ -34,6 +34,7 @@ public class Animate {
             g.fillRect(0,0,500,250);
             g.setColor(Color.blue);
             g.fillRect(x,y,(500 - x*2),(250 - y*2));
+
         }
     }
 
